@@ -1,0 +1,314 @@
+body {
+    scroll-behavior: smooth;
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 1.75rem;
+}
+
+em {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 1rem;
+}
+
+p {
+    color: #8f8f8f;
+    font-family: "Ubuntu";
+}
+
+.big-text {
+    color: #fff;
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title {
+    padding: 3% 14% 5%;
+    
+}
+
+/* navbar */
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+}
+
+.nav-img {
+    width: 20%;
+    transform: rotate(40deg);
+    margin-left: 2rem;
+    position: absolute;
+}
+
+.nav-mg-down {
+    margin-bottom: 5rem;
+}
+
+.nav-mg-top {
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.sec-btn_gap {
+    margin-left: 1rem;
+}
+
+.sec-icon_gap {
+    padding-right: 10px;
+}
+
+.nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.sec-nav {
+    background-color: #ff4c68;
+}
+
+.sec-mg {
+    margin-left: auto;
+}
+
+.sec-ul_pad {
+    padding: 0 1rem 0;
+}
+
+/* brand */
+.sec-brand-pd {
+    padding: 2rem;
+}
+
+.sec-brand {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 10% 15%;
+}
+
+.fa-style {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* cta */
+.cta {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.cta-mg-bottom {
+    padding-bottom: 3rem;
+}
+
+.em-pd {
+    margin-top: 3rem;
+}
+
+.press-image {
+    width: 15%;
+    padding: 1.5rem;
+}
+
+.testimonial {
+    padding: 5% 17%;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin-right: 1rem;
+}
+
+/* pricing */
+.card-pd {
+    padding: 1rem;
+}
+
+.pricing {
+    padding: 7% 13%;
+    text-align: center;
+}
+
+.pricing-mg-bottom {
+    margin-bottom: 3rem;
+}
+
+.pricing-text {
+    font-size: 3rem;
+}
+
+/* download */
+.download {
+    text-align: center;
+    padding: 7% 17%;
+    background-color: #ff4c68;
+}
+
+.download-mg-bottom {
+    margin-bottom: 3rem;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    padding: 10% 0;
+}
+
+.footer-icon-pd {
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-img {
+        transform: rotate(0deg);
+        position: static;
+        width: 50%;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .nav-mg-top {
+        font-size: 250%;
+    }
+
+    .t-sml {
+        font-size: 3rem;
+    }
+
+    .pricing {
+        padding: 7% 7%;
+    }
+
+    .small-text {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 775px) {
+    .title {
+        padding: 3% 13% 5%;
+        
+    }
+}
+
+@media screen and (min-width: 513px) and (max-width: 767px) {
+    .nav-resp {
+        margin: 0 20% 0 20%;
+        text-align: left;
+    }
+
+    .nav-img {
+        transform: rotate(0deg);
+        position: static;
+        width: 40%;
+        margin: 4rem 10rem 0 10rem;
+
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .t-sml {
+        font-size: 2.2rem;
+    }
+
+    .marg-redu {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .nav-mg-top {
+        font-size: 250%;
+    }
+
+    .nav-resp {
+        margin-left: 6vw;
+    }
+
+    .nav-img {
+        transform: rotate(0deg);
+        position: static;
+        width: 50%;
+        margin-top: 2rem;
+        margin-left: 18vw;
+
+    }
+
+    .sec-mg {
+        text-align: center;
+    }
+
+    .marg-redu {
+        margin: 1rem;
+    }
+
+    .nav-mg-down {
+        margin-bottom: 1rem;
+    }
+
+    .press-image {
+        width: 20%;
+        padding: .5rem;
+    }
+
+    .pricing-text {
+        font-size: 1.7rem;
+    }
+
+    .big-text {
+        font-size: 2.2rem;
+    }
+
+    .t-sml {
+        font-size: 1.4rem;
+    }
+
+    .btn-inline {
+        display: inline;
+    }
+
+    .sec-btn_gap {
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 513px) and (max-width: 730px) {
+    .nav-resp {
+        margin: 0 auto 0 13vw;
+        text-align: left;
+    }
+
+    .nav-mg-top {
+        font-size: 250%;
+    }
+
+    .nav-img {
+        margin-left: 16vw;
+        width: 55%;
+
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 730px) {
+    .nav-mg-top {
+        font-size: 280%;
+        padding-right: 120px;
+    }
+}
+
