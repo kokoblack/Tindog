@@ -1,4 +1,10 @@
+
+
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
     scroll-behavior: smooth;
     font-family: "Montserrat";
     overflow-x: hidden;
@@ -92,7 +98,6 @@ p {
 }
 
 .sec-brand {
-    background-color: #fff;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -139,7 +144,7 @@ p {
 }
 
 .pricing {
-    padding: 7% 13%;
+    padding: 7% 7% 7% 7%;
     text-align: center;
 }
 
@@ -148,8 +153,9 @@ p {
 }
 
 .pricing-text {
-    font-size: 3rem;
+    font-size: 2rem;
 }
+
 
 /* download */
 .download {
